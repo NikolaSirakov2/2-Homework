@@ -1,4 +1,4 @@
-let number = x
+let number = x;
 
 let sum = 0;
 
