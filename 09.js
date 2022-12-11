@@ -1,12 +1,12 @@
 let A = 1;
-let B = 107;
+let B = 6;
 
 let sum = 0;
-let numbers = "";
+let numbers = ('' + A);
 
-for (let i = A; i <= B; i++) {
+for (let i = A + 1; i <= B; i++) {
   if (i % 3 === 0) {
-    numbers += `skip ${i}, `;
+    numbers += `, skip ${i}`;
     continue;
   }
 
@@ -19,7 +19,7 @@ for (let i = A; i <= B; i++) {
   }
 
   if(i < B){
-    numbers += `${number}, `;
+    numbers += `, ${number}`;
   } else if (i = B){
     numbers += `${number}`;
   }
