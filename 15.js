@@ -1,8 +1,10 @@
-let N = x;
+let N = 10;
+let start = 1;
 let sum = 0;
 
-for (let i = 1; i <= N; i++){
-    sum += i;
-}
+do {
+  sum += start;
+  start++;
+} while (start <= N);
 
 console.log(sum);
