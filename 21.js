@@ -1,4 +1,4 @@
-let n = 47;
+let n = x;
 let cards = ""
 
 for (let i = n; i <= 51; i++) {
@@ -22,11 +22,11 @@ for (let i = n; i <= 51; i++) {
   }
 
   if (sum < 11) {
-    cards += sum, color;
+    cards += `${sum} ${color}, `
   } else if (sum === 11) {
-    cards += "J", color;
+    cards += `Вале ${color}, `
   } else if (sum === 12) {
-    cards += "Q", color;
+    cards += `Дама ${color}, `
   } else if (sum === 13) {
     cards += `Поп ${color}, `;
   } else if (sum === 14) {
