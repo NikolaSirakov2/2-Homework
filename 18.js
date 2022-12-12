@@ -1,5 +1,5 @@
-let firstNum = 7;
-let secondNum = 6;
+let firstNum = x;
+let secondNum = y;
 
 for (let i = 1; i <= firstNum; i++){
     for (let k = 1; k <= secondNum; k++){
