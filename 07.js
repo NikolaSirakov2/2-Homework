@@ -1,4 +1,4 @@
-let n = 8;
+let n = 10;
 
 let numbers = "3";
 
