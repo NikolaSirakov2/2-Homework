@@ -1,5 +1,6 @@
 let number = 0;
 
+
 for (let i = 100; i <= 999; i++){
     number = i;
     let firstD = Math.floor(number/100);
