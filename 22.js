@@ -1,5 +1,5 @@
 let count = 0;
-let num = 1;
+let num = x;
 let numbers = '';
 
 while(count < 10) {
