@@ -1,4 +1,4 @@
-let num = 11;
+let num = x;
 let numbers = "";
 
 while (num !== 1) {
