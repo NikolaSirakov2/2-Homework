@@ -1,4 +1,4 @@
-let N = 7;
+let N = x;
 let tree = "";
 for (let i = 1; i <= N; i++) {
   for (let j = 0; j <= N - i; j++) {
