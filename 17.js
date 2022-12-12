@@ -1,4 +1,4 @@
-let side = 6;
+let side = x;
 let sign = "/";
 
 for(let i = 1; i <= side; i++){
