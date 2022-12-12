@@ -1,5 +1,5 @@
-let side = x;
-let sign = "/";
+let side = 9;
+let sign = "?";
 
 for(let i = 1; i <= side; i++){
     if (i === 1 || i === side){
@@ -20,4 +20,3 @@ for(let i = 1; i <= side; i++){
         console.log(midLine);
     }
 }
-
