@@ -1,10 +1,10 @@
-let N = x;
+let n = x;
 let num = 1;
 let result = 1;
 
 do {
   result *= num;
   num++;
-} while (num <= N);
+} while (num <= n);
 
 console.log(result);
