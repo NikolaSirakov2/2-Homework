@@ -1,7 +1,7 @@
-let N = x;
-let M = y;
+let n = x;
+let m = y;
 
-for (let i = M; i >= N; i--){
+for (let i = m; i >= n; i--){
     if(i % 50 === 0){
         console.log(i);
     }
