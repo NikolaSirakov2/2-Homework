@@ -1,10 +1,12 @@
-let n = 5;
-
+let n = 1;
+let numbers = "";
 
 for(let i = 1; i <= n; i++){
-    let numbers = '';
-    for(let j = n - 1; j <= n; j++){
-        
+    for(let j = 1; j <= n; j++){
+        numbers += (n - 2) + ((i*2) - 1);
     }
-   console.log(numbers); 
+   
+    numbers += "\n"
 }
+
+console.log(numbers); 
