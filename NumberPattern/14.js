@@ -3,7 +3,9 @@ let square = "";
 
 for (let i = 1; i <= num; i++) {
   for (let j = 1; j <= num; j++) {
-    square += ((num - i) + j) + " ";
+    if (j === 1){
+      square += num + " ";
+    } 
   }
   square += "\n";
 }
